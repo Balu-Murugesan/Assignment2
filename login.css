@@ -1,0 +1,36 @@
+body {
+  background: turquoise;
+}
+.login {
+  text-align: center;
+  height: auto;
+  width: 500px;
+  background-color: white;
+  position: fixed;
+  bottom: 40%;
+  left: 30%;
+  border-radius: 0px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input {
+  border: none;
+  border: 1px solid turquoise;
+  height: 20px;
+  border-radius: 50px;
+  outline: none;
+}
+label {
+  color: rgb(82, 167, 158);
+}
+button {
+  background-color: turquoise;
+  border: none;
+  border: 1px solid turquoise;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+h2 {
+  color: rgb(80, 124, 120);
+}

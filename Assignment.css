@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(to right, rgb(252, 90, 171), rgb(172, 22, 218));
+  max-width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.login {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7px;
+  margin-right: 8%;
+  color: rgb(193, 250, 231);
+}
+.login a {
+  text-decoration: none;
+  color: rgb(193, 235, 221);
+}
+#h1tag {
+  margin-left: 45%;
+  color: white;
+}
+#mynav ul {
+  /* margin-left: 10%; */
+  display: flex;
+  justify-content: space-between;
+}
+#mynav li {
+  background-color: rgb(255, 209, 5);
+  padding: 10px 79px;
+  margin-right: 12px;
+  margin-top: 10px;
+  list-style-type: none;
+  /* border-radius: 5px; */
+}
+#mynav {
+  position: static;
+  top: 7%;
+}
+.imgfood img {
+  height: 300px;
+  width: 800px;
+  margin-left: 19px;
+}
+.center {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  /* margin-top: 4%; */
+}
+.tacos {
+  height: 1px;
+  width: 280px;
+  background-color: rgb(255, 230, 0);
+  margin-bottom: 15px;
+  padding: 40px;
+  padding-bottom: 100px;
+  /* position: relative; */
+}
+.tacos p,
+h1 {
+  display: inline;
+  /* bottom: 30%; */
+}
+.tacos h1 {
+  margin-right: 150px;
+  margin-left: 110px;
+}
+.bottom img {
+  height: 50px;
+  width: 50px;
+  padding-top: 5px;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 26px;
+}
+.bottom div {
+  margin: 5px 9px 0px;
+  background-color: white;
+}
